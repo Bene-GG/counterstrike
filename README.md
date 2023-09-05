@@ -1,4 +1,4 @@
-# Counter-Strike 2 - configuration / autoexec.cfg
+# Counter-Strike 2 - configuration / autoexec.cfg \*WIP\*
 
 ## Warning
 
@@ -19,7 +19,7 @@ Requires these loadouts:
 
 | CT  | T  |
 |---|---|
-|![ct loadout](/loadouts/ct.png)| ![t loadout](/loadouts/t.png) |
+|![ct loadout](/internal/loadouts/ct.png)| ![t loadout](/internal/loadouts/t.png) |
 
 ### Variables for buyscript (new loadout menu)
 
@@ -52,3 +52,14 @@ Requires these loadouts:
 | Rifle 3 | `buy ssg08;` |
 | Rifle 4 | `buy aug;`   |
 | Rifle 5 | `buy awp;`   |
+
+
+# Additional tips / fixes
+
+## Minimize game on focus loss
+
+1. Open `"C:\Program Files (x86)\Steam\userdata\<steamid>\730\local\cfg\cs2_video.txt"`
+2. Change `setting.fullscreen_min_on_focus_loss` to either value:
+    - `0`: Game will not minimize on focus loss (e.g. ALT+TABbing out of it)
+    - `1`: Game will minimize on focus loss
+
