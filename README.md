@@ -35,7 +35,7 @@ Requires these loadouts:
 
 #### Mid-Tier
 
-| Pistols    | Variable      |
+| Mid-Tier   | Variable      |
 | ---------- | ------------- |
 | Mid-Tier 1 | `buy nova;`   |
 | Mid-Tier 2 | `buy xm1014;` |
@@ -45,7 +45,7 @@ Requires these loadouts:
 
 #### Rifles
 
-| Pistols | Variable     |
+| Rifles  | Variable     |
 | ------- | ------------ |
 | Rifle 1 | `buy famas;` |
 | Rifle 2 | `buy m4a1;`  |
