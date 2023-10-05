@@ -22,39 +22,41 @@ Requires these loadouts:
 
 ### Variables for buyscript (new loadout menu)
 
+Since 1.39.5.6 "old" variables work again. In addition, new item variables have been added.
+
 #### Pistols
 
-| Pistols  | Variable old  | Variable new  |
-| -------- | ------------- | ------------- |
-| Pistol 1 | `buy usps;`   | `buy item 2;` |
-| Pistol 2 | `buy elite;`  | `buy item 3;` |
-| Pistol 3 | `buy p250;`   | `buy item 4;` |
-| Pistol 4 | `buy fn57;`   | `buy item 5;` |
-| Pistol 5 | `buy deagle;` | `buy item 6;` |
+| Pistols  | Variable old  | Variable new  | 1.39.5.6          |
+| -------- | ------------- | ------------- | ----------------- |
+| Pistol 1 | `buy usps;`   | `buy item 2;` | `buy secondary0;` |
+| Pistol 2 | `buy elite;`  | `buy item 3;` | `buy secondary1;` |
+| Pistol 3 | `buy p250;`   | `buy item 4;` | `buy secondary2;` |
+| Pistol 4 | `buy fn57;`   | `buy item 5;` | `buy secondary3;` |
+| Pistol 5 | `buy deagle;` | `buy item 6;` | `buy secondary4;` |
 
 #### Mid-Tier
 
-| Mid-Tier   | Variable old  | Variable new   |
-| ---------- | ------------- | -------------- |
-| Mid-Tier 1 | `buy nova;`   | `buy item 8;`  |
-| Mid-Tier 2 | `buy xm1014;` | `buy item 9;`  |
-| Mid-Tier 3 | `buy mp5sd;`  | `buy item 10;` |
-| Mid-Tier 4 | `buy p90;`    | `buy item 11;` |
-| Mid-Tier 5 | `buy mp9;`    | `buy item 12;` |
+| Mid-Tier   | Variable old  | Variable new   | 1.39.5.6        |
+| ---------- | ------------- | -------------- | --------------- |
+| Mid-Tier 1 | `buy nova;`   | `buy item 8;`  | `buy midtier0;` |
+| Mid-Tier 2 | `buy xm1014;` | `buy item 9;`  | `buy midtier1;` |
+| Mid-Tier 3 | `buy mp5sd;`  | `buy item 10;` | `buy midtier2;` |
+| Mid-Tier 4 | `buy p90;`    | `buy item 11;` | `buy midtier3;` |
+| Mid-Tier 5 | `buy mp9;`    | `buy item 12;` | `buy midtier4;` |
 
 #### Rifles
 
-| Rifles  | Variable old | Variable new   |
-| ------- | ------------ | -------------- |
-| Rifle 1 | `buy famas;` | `buy item 14;` |
-| Rifle 2 | `buy m4a1;`  | `buy item 15;` |
-| Rifle 3 | `buy ssg08;` | `buy item 16;` |
-| Rifle 4 | `buy aug;`   | `buy item 17;` |
-| Rifle 5 | `buy awp;`   | `buy item 18;` |
+| Rifles  | Variable old | Variable new   | 1.39.5.6      |
+| ------- | ------------ | -------------- | ------------- |
+| Rifle 1 | `buy famas;` | `buy item 14;` | `buy rifle0;` |
+| Rifle 2 | `buy m4a1;`  | `buy item 15;` | `buy rifle1;` |
+| Rifle 3 | `buy ssg08;` | `buy item 16;` | `buy rifle2;` |
+| Rifle 4 | `buy aug;`   | `buy item 17;` | `buy rifle3;` |
+| Rifle 5 | `buy awp;`   | `buy item 18;` | `buy rifle4;` |
 
 #### Grenades
 
-| Grenade | Variable old                  | Variable new   |
+| Grenade | Variable old (still work)     | Variable new   |
 | ------- | ----------------------------- | -------------- |
 | Flash   | `buy flashbang;`              | `buy item 26;` |
 | Smoke   | `buy smokegrenade;`           | `buy item 27;` |
@@ -64,12 +66,12 @@ Requires these loadouts:
 
 #### Equipment
 
-| Equipment     | Variable old    | Variable new   |
-| ------------- | --------------- | -------------- |
-| Kevlar        | `buy vest;`     | `buy item 32;` |
-| Kevlar+Helmet | `buy vesthelm;` | `buy item 33;` |
-| Zeus x27      | `buy taser;`    | `buy item 34;` |
-| Defuse Kit    | `buy defuser;`  | `buy item 35;` |
+| Equipment     | Variable old (still work) | Variable new   |
+| ------------- | ------------------------- | -------------- |
+| Kevlar        | `buy vest;`               | `buy item 32;` |
+| Kevlar+Helmet | `buy vesthelm;`           | `buy item 33;` |
+| Zeus x27      | `buy taser;`              | `buy item 34;` |
+| Defuse Kit    | `buy defuser;`            | `buy item 35;` |
 
 # Additional tips / fixes
 
